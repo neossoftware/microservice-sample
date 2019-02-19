@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/neossoftware/microservice-sample.svg?branch=master)](https://travis-ci.org/neossoftware/microservice-sample)
+
 Buil artifact using Maven
 
 Maven
