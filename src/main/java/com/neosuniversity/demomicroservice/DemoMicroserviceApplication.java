@@ -14,14 +14,5 @@ public class DemoMicroserviceApplication {
 		SpringApplication.run(DemoMicroserviceApplication.class, args);
 	}
 
-	@Bean
-	public WebMvcConfigurer corsConfigurer() {
-		return new WebMvcConfigurerAdapter() {
-			@Override
-			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("*");
-			}
-		};
-	}
 
 }
